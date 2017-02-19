@@ -30,7 +30,7 @@ def main():
 		print("\nMake sure you type a number for the amount of ID parameters")
     		t.sleep(3)
 		main()
-        name = ("image=(\"{}?id=".format(site))
+        name = ("=image(\"{}?id=".format(site))
 	
 	file = open('spreadsheet.csv', 'w')
 	test = 0
